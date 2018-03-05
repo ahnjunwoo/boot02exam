@@ -1,8 +1,5 @@
 package com.ahn.user;
 
-import java.util.List;
-import java.util.stream.Collectors;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.stereotype.Service;
@@ -13,7 +10,6 @@ public class UserService {
 	UserRepository repo;
 	@Autowired
 	ApplicationArguments arguments;
-	
 	/**
 	 * --hello=Hello -hello=World => 이 메소드 가 hello world를 반환 retunr 에서 메세지를 조인해서 hello world라는 하나의 메시지로 출력
 	 * @return

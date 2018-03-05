@@ -1,6 +1,5 @@
 spring:
   application:
-    name: boot2Exam
     admin:
       enabled: true
   datasource:
@@ -19,4 +18,4 @@ logging:
   level:
     org.hibernate: info
     root: info
-    org.springframework.web: error
+    org.springframework.web: debug
