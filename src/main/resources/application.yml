@@ -14,6 +14,9 @@ spring:
     generate-ddl: false
     hibernate:
       ddl-auto: update
+  output:
+    ansi:
+      enabled: always
 logging:
   level:
     org.hibernate: info
