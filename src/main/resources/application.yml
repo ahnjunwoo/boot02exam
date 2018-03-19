@@ -17,6 +17,10 @@ spring:
   output:
     ansi:
       enabled: always
+  mvc:
+    static-path-pattern: /static/**
+  resources:
+    static-locations: classpath:/html
 logging:
   level:
     org.hibernate: info
