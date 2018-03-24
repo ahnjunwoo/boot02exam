@@ -4,9 +4,9 @@ spring:
       enabled: true
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/albamtest
+    url: jdbc:mysql://localhost:3306/bootexam
     username: root
-    password: wnsdn13
+    password: wnsdn13!
   jpa:
     show-sql: true
     database : mysql
@@ -26,3 +26,5 @@ logging:
     org.hibernate: info
     root: info
     org.springframework.web: debug
+server:
+  port: 9998

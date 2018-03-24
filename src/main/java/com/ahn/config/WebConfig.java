@@ -1,10 +1,8 @@
 package com.ahn.config;
 
 
-import com.ahn.bangsong.BangsongCoverter;
 import org.springframework.boot.autoconfigure.web.servlet.WebMvcRegistrations;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.format.FormatterRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
@@ -14,6 +12,13 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class WebConfig implements WebMvcConfigurer,WebMvcRegistrations {
 
+    /*@Bean
+    public FilterRegistrationBean<MyFilter> myFilter(){
+        FilterRegistrationBean bean = new FilterRegistrationBean();
+        bean.setFilter(new MyFilter());
+        bean.setUrlPatterns(Arrays.asList("/testHello"));
+        return bean;
+    }*/
     //컨버터에 없는 gson 설정
 
    /* @Bean
